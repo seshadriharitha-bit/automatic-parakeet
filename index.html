@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Brew & Bean Coffee House</title>
+</head>
+<body>
+
+  <h1>Brew & Bean Coffee House</h1>
+  <p>Freshly roasted coffee, baked goods, and a cozy place to work or relax. Open daily from 7am to 6pm.</p>
+
+  <!-- STEP 1: Add your large, uncompressed hero image here, no width/height set -->
+  <!-- <img src="hero.jpg" alt="Coffee shop interior"> -->
+
+  <h2>Our Menu</h2>
+  <p>Espresso, cappuccino, cold brew, and a rotating selection of pastries baked fresh every morning.</p>
+
+  <h2>Visit Us</h2>
+  <p>123 Main Street, Anytown</p>
+
+  <button onclick="doHeavyWork()">Check Today's Specials</button>
+
+  <script>
+    // STEP 2: This simulates a heavy/blocking task for the INP exercise
+    function doHeavyWork() {
+      let total = 0;
+      for (let i = 0; i < 500000000; i++) {
+        total += i;
+      }
+      alert("Today's special: Caramel Latte! (calculation result: " + total + ")");
+    }
+  </script>
+
+</body>
+</html>
